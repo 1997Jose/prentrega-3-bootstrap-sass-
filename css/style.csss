@@ -1,0 +1,12 @@
+.about {
+  background-color: black;
+}
+.about .container {
+  background-color: blue;
+}
+
+body {
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=style.csss.map */
