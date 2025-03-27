@@ -1,22 +1,96 @@
+/* Colores */
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "poppins";
+  color: rgb(0, 145, 48);
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(0, 145, 48);
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Son propiedades que se utilizan lo  mismo  valores que se reutilizan */
+.wrap .wrapp-sectiones {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.wrap {
+  padding-top: 3%;
+}
+.wrap .section-padding {
+  padding: 100px 0;
+  margin: 0px;
+}
+.wrap .img-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+.wrap .wrapp-flex-arg {
+  display: flex;
+  gap: 8px;
+}
+.wrap .wrapp-item {
+  color: rgb(0, 0, 0);
+}
+.wrap .wrapp-card-infor {
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.wrap .wrapp-parrafo {
+  font-family: "poppins";
+  font-size: 18px;
+}
+.wrap .subtitulo {
+  font-size: 60px;
+}
+.wrap .span-verde {
+  color: rgb(10, 255, 92);
+}
+.wrap .h4-text-subti {
+  font-family: "poppins";
+  font-size: 32px;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.wrap .-caja-btn {
+  padding-top: 30px;
+}
+.wrap .-parrafo-btn {
+  font-family: "poppins";
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.wrap .btn-sobre-mi {
+  border: none;
+  border-radius: 1px;
+  padding: 15px 25px;
+  outline: 2px solid black;
+  transition-property: outline-offset, outline-color, background-color;
+  transition-duration: 0.25s;
+}
+.wrap .btn-sobre-mi:hover {
+  background-color: rgb(10, 255, 92);
+}
+.wrap .wrapp-sectiones {
+  gap: 15px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.section-padding {
-  padding: 100px 0;
-  margin: 0px;
-}
-
-.wrapp-item {
-  color: blue;
-}
-
-.img-perfil {
-  width: 200px;
-  height: 200px;
-  border-radius: 200px;
+  font-family: "poppins";
 }
 
 /*# sourceMappingURL=style.css.map */

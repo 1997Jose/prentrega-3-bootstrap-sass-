@@ -1,0 +1,88 @@
+
+@use '../utilitis/variables';
+@use "../utilitis/extends";
+
+/* tipografia */
+@mixin tipografias($tipografia,$tamanio) {
+    font-family: $tipografia;
+    font-size: $tamanio;
+}
+
+
+.wrap{
+    padding-top: 3%;
+
+    .section-padding{
+        padding: 100px 0;
+        margin: 0px;
+    }
+
+    .img-perfil{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+
+    .wrapp-flex-arg {
+        display: flex;
+        gap: 8px;
+    }
+
+    .wrapp-item{
+        color: variables.$color-1;
+    }
+
+    .wrapp-card-infor{
+        display: grid;
+        place-items: center;
+        padding: 20px;
+    }
+
+    .wrapp-parrafo{
+        @include tipografias("poppins", 18px);
+    }
+
+    .subtitulo{
+        font-size: 60px;
+    }
+
+    .span-verde{
+        color: variables.$color-2;
+    }
+
+    .h4-text-subti{
+        @include tipografias("poppins", 32px);
+        font-weight: bold;
+        padding-top: 15px;
+    }
+
+    .-caja-btn{
+        padding-top: 30px;
+    }
+    
+    .-parrafo-btn{
+        @include tipografias("poppins", 16px);
+        color: variables.$color-1;
+        text-decoration: none;
+    }
+
+    .btn-sobre-mi{
+        border: none;
+        border-radius: 1px;
+        padding: 15px 25px;
+        outline:  2px solid black;
+        transition-property: outline-offset, outline-color, background-color;
+        transition-duration: 0.25s;
+    }
+
+    .btn-sobre-mi:hover{
+        background-color: variables.$color-2;
+    }
+
+    .wrapp-sectiones{
+        @extend %flexBasico;
+        gap: 15px; 
+    }
+}
+
+
