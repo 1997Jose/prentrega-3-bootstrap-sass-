@@ -1,0 +1,57 @@
+/* iconos de home */
+@use '../utilitis/variables';
+@use '../utilitis/extends';
+
+
+.wrapp-item-2{
+    @extend %flexBasico2;
+    gap: 15px;
+    padding-top: 5%;
+
+    .icons{
+        @extend %flexBasico3;
+        padding-left: 10px;
+        border-radius: 60%;
+        right: 10px;
+        width: 48px;
+        height: 48px;
+        outline: 2px solid variables.$color-3;
+        transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+
+    }
+
+    .icons:hover{
+        transform: translatey(-20px);
+            -webkit-transform: translatey(-20px);
+            -moz-transform: translatey(-20px);
+    }
+
+    .icons-2{
+        @extend %flexBasico3;
+        padding-left: 15px;
+        border-radius: 60%;
+        right: 10px;
+        width: 48px;
+        height: 48px;
+        outline: 2px solid variables.$color-3;
+        transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+    }
+
+    .icons-2:hover{
+        transform: translatey(-20px);
+            -webkit-transform: translatey(-20px);
+            -moz-transform: translatey(-20px);
+    }
+
+    .icon{
+        color: black;
+        font-size: 20px;
+
+    }
+
+}
+

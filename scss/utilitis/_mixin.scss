@@ -1,0 +1,10 @@
+/* Son propiedades que tienen distintos valores | se incluye de esta manera @extend %flexBasicos;*/
+
+/* tipografia */
+@mixin tipografias($tipografia,$tamanio) {
+    font-family: $tipografia;
+    font-size: $tamanio;
+}
+
+
+
