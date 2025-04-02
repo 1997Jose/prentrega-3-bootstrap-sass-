@@ -6,6 +6,7 @@
     font-size: $tamanio;
 }
 
+
 @mixin tipografias($tipografia,$tamanio, $valor) {
     font-family: $tipografia;
     font-size: $tamanio;
@@ -15,6 +16,12 @@
 @mixin tipografias($tipografia,$tamanio, $valor, $normal) {
     font-family: $tipografia;
     font-size: $tamanio;
+    font-weight: $valor;
+    font-style: $normal;
+}
+
+@mixin tipografias($tipografia,$valor, $normal) {
+    font-family: $tipografia;
     font-weight: $valor;
     font-style: $normal;
 }

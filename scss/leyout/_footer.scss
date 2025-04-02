@@ -1,8 +1,14 @@
 @use '../utilitis/variables';
 @use "../utilitis/extends";
 
+@mixin tipografias($tipografia,$valor, $normal) {
+    font-family: $tipografia;
+    font-weight: $valor;
+    font-style: $normal;
+}
+
 footer{
-    background-color: rgba(248, 249, 250, 1);
+    background-color: variables.$color-5;
 
     .wrapp-footer-{
         gap: 50px;
@@ -18,6 +24,7 @@ footer{
             border-radius: 50%;
             line-height: 30px;
             padding: 0cm;
+
         }
         a{
             padding-top: 4px;
@@ -40,32 +47,24 @@ footer{
     }
 
     .wrapp-h4{
-        font-family: "poppins";
-        font-weight: 500;
-        font-style: normal;
+        @include tipografias("poppins", 500, normal);
         color: variables.$color-3;
     }
 
     .text-footer{
         text-decoration: none;
-        font-family: "poppins";
-        font-weight: 500;
-        font-style: normal;
+        @include tipografias("poppins", 500, normal);
         color: #000;
         
     }
 
     .pr-5{
-        font-family: "poppins";
-        font-weight: 500;
-        font-style: normal;
-        color: #000;
+        @include tipografias("poppins", 500, normal);
+        color: variables.$color-1;
     }
 
     .copy{
-        font-size: 15px;
-        font-family: "poppins";
-        font-weight: 400;
+        @include tipografias("poppins", 15px, 400);
     }
 
     .copyright{

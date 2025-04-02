@@ -175,7 +175,7 @@
   -moz-transform: translatey(-20px);
 }
 .wrapp-item-2 .icon {
-  color: black;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
@@ -245,12 +245,12 @@ footer .pr-5 {
   font-family: "poppins";
   font-weight: 500;
   font-style: normal;
-  color: #000;
+  color: rgb(0, 0, 0);
 }
 footer .copy {
-  font-size: 15px;
   font-family: "poppins";
-  font-weight: 400;
+  font-weight: 15px;
+  font-style: 400;
 }
 footer .copyright {
   font-size: 1.8rem;
