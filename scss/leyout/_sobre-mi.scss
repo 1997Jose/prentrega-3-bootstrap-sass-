@@ -1,0 +1,25 @@
+@use '../utilitis/variables';
+@use "../utilitis/extends";
+
+/* tipografia */
+@mixin tipografias($tipografia,$tamanio, $valor, $normal) {
+    font-family: $tipografia;
+    font-size: $tamanio;
+    font-weight: $valor;
+    font-style: $normal;
+}
+
+.about-text{
+    font-family: "poppins";
+    font-size: 18.5px;
+    font-weight: 300;
+    
+    .subtitulos-h2{
+        @include tipografias("poppins", 30px, 500, normal)
+    }
+}
+
+.hr{
+    color: variables.$color-3;
+    font-size: 1rem;
+}

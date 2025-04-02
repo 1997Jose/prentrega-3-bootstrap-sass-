@@ -1,0 +1,80 @@
+@use '../utilitis/variables';
+@use "../utilitis/extends";
+
+footer{
+    background-color: rgba(248, 249, 250, 1);
+
+    .wrapp-footer-{
+        gap: 50px;
+    }
+
+    .social{
+        li{
+            display: inline-block;
+            text-align: center;
+            color: variables.$color-1;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            line-height: 30px;
+            padding: 0cm;
+        }
+        a{
+            padding-top: 4px;
+            color: variables.$color-1;
+            transition: .3s;
+            font-size: 26px;
+        }
+
+        a:hover{
+            color: variables.$color-3;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    .wrapp-list{
+        gap: 15px;
+    }
+
+    .wrapp-h4{
+        font-family: "poppins";
+        font-weight: 500;
+        font-style: normal;
+        color: variables.$color-3;
+    }
+
+    .text-footer{
+        text-decoration: none;
+        font-family: "poppins";
+        font-weight: 500;
+        font-style: normal;
+        color: #000;
+        
+    }
+
+    .pr-5{
+        font-family: "poppins";
+        font-weight: 500;
+        font-style: normal;
+        color: #000;
+    }
+
+    .copy{
+        font-size: 15px;
+        font-family: "poppins";
+        font-weight: 400;
+    }
+
+    .copyright{
+        font-size: 1.8rem;
+        text-shadow: 1px 1px solid variables.$color-3;
+        border-top: 1px solid variables.$color-3;
+        border-bottom: 1px solid variables.$color-3;
+    
+    }
+
+}
+

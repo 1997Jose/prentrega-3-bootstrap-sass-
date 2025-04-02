@@ -1,0 +1,43 @@
+@use '../utilitis/variables';
+@use "../utilitis/extends";
+
+
+
+.container{
+    padding-bottom: 10px;
+
+    .section-iconos-{
+        width: 45px;
+        height: 45px;
+    }
+
+    .section-subtitulo-{
+        font-family: "poppins";
+        font-size: 35px;
+        font-weight: 400;
+        font-style: normal;
+        color: variables.$color-3;
+    }
+    
+    .wrp-subtitulo-{
+        font-family: "poppins";
+        font-weight: 400;
+        font-size: 25px;
+        font-style: normal;
+        padding-top: 8px;
+        padding-left: 5px;
+        color: variables.$color-1;
+    }
+
+    .section-p-{
+        font-family: "poppins";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .img-wrapp{
+        width: 100%;
+        border-radius: 8px;
+    }
+}
