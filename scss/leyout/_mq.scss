@@ -1,0 +1,35 @@
+
+
+@media only screen and (max-width:767px) {
+    .navbar-nav{
+        text-align: center;
+    }
+}
+
+@media(max-width:767px){
+    .left{
+        padding: 90px 15px;
+        text-align: center;
+    }
+
+    .left h2 {
+        font-size: 25px;
+    }
+
+    .right{
+        padding: 25px;
+    }
+
+    .right i {
+        top: -52px;
+        transform: rotate(90deg);
+        left: 45%;
+    }
+
+    .right button {
+        width: 150px;
+        padding: 12px 0;
+    }
+
+
+}
