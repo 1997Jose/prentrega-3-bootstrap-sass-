@@ -5,6 +5,8 @@
   font-weight: 500;
   font-family: "poppins";
   color: rgb(0, 145, 48);
+  animation: move ease;
+  animation-duration: 1.5s;
 }
 
 .navbar-light .navbar-brand {
@@ -13,6 +15,8 @@
   font-size: 25px;
   font-weight: 700;
   letter-spacing: 2px;
+  animation: move ease;
+  animation-duration: 1.5s;
 }
 
 /* Son propiedades que se utilizan lo  mismo  valores que se reutilizan */
@@ -45,13 +49,19 @@
   width: 200px;
   height: 200px;
   border-radius: 200px;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrap .wrapp-flex-arg {
   display: flex;
   gap: 8px;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrap .wrapp-item {
   color: rgb(0, 0, 0);
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrap .wrapp-card-infor {
   display: grid;
@@ -61,11 +71,15 @@
 .wrap .wrapp-parrafo {
   font-family: "poppins";
   font-size: 18px;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrap .subtitulo {
   font-size: 45px;
   font-family: "pooppins";
   font-weight: 900;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrap .span-verde {
   color: rgb(10, 255, 92);
@@ -77,9 +91,13 @@
   font-size: 35px;
   font-weight: 700;
   padding-top: 15px;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrap .-caja-btn {
   padding-top: 30px;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrap .-parrafo-btn {
   font-family: "poppins";
@@ -141,6 +159,9 @@
 .wrapp-item-2 {
   gap: 15px;
   padding-top: 5%;
+  position: relative;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .wrapp-item-2 .icons {
   padding-left: 10px;
@@ -184,17 +205,23 @@
   font-family: "poppins";
   font-size: 18.5px;
   font-weight: 300;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .about-text .subtitulos-h2 {
   font-family: "poppins";
   font-size: 30px;
   font-weight: 500;
   font-style: normal;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 
 .hr {
   color: rgb(0, 145, 48);
   font-size: 1rem;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 
 footer {
@@ -212,12 +239,12 @@ footer .social li {
   border-radius: 50%;
   line-height: 30px;
   padding: 0cm;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 footer .social a {
   padding-top: 4px;
   color: rgb(0, 0, 0);
-  transition: 0.3s;
-  font-size: 26px;
 }
 footer .social a:hover {
   color: rgb(0, 145, 48);
@@ -227,12 +254,16 @@ footer ul {
 }
 footer .wrapp-list {
   gap: 15px;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 footer .wrapp-h4 {
   font-family: "poppins";
   font-weight: 500;
   font-style: normal;
   color: rgb(0, 145, 48);
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 footer .text-footer {
   text-decoration: none;
@@ -240,12 +271,16 @@ footer .text-footer {
   font-weight: 500;
   font-style: normal;
   color: #000;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 footer .pr-5 {
   font-family: "poppins";
   font-weight: 500;
   font-style: normal;
   color: rgb(0, 0, 0);
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 footer .copy {
   font-family: "poppins";
@@ -258,6 +293,8 @@ footer .copyright {
   text-shadow: 1px 1px solid rgb(0, 145, 48);
   border-top: 1px solid rgb(0, 145, 48);
   border-bottom: 1px solid rgb(0, 145, 48);
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 
 .container {
@@ -266,6 +303,8 @@ footer .copyright {
 .container .section-iconos- {
   width: 45px;
   height: 45px;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .container .section-subtitulo- {
   font-family: "poppins";
@@ -273,6 +312,8 @@ footer .copyright {
   font-weight: 400;
   font-style: normal;
   color: rgb(0, 145, 48);
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .container .wrp-subtitulo- {
   font-family: "poppins";
@@ -282,17 +323,23 @@ footer .copyright {
   padding-top: 8px;
   padding-left: 5px;
   color: rgb(0, 0, 0);
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .container .section-p- {
   font-family: "poppins";
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 .container .img-wrapp {
   width: 100%;
   border-radius: 8px;
   cursor: pointer;
+  animation: move ease;
+  animation-duration: 1.9s;
 }
 
 /* tipografia */
@@ -361,6 +408,20 @@ footer .copyright {
   .right button {
     width: 150px;
     padding: 12px 0;
+  }
+}
+@keyframes move {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
+/* keyframes animation */
+@keyframes showRight {
+  100% {
+    width: 0;
   }
 }
 * {

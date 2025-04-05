@@ -7,6 +7,10 @@
     @extend %flexBasico2;
     gap: 15px;
     padding-top: 5%;
+    position: relative;
+    animation: move ease;
+    animation-duration: 1.9s;
+
 
     .icons{
         @extend %flexBasico3;
@@ -54,4 +58,5 @@
     }
 
 }
+
 

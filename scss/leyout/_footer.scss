@@ -24,13 +24,14 @@ footer{
             border-radius: 50%;
             line-height: 30px;
             padding: 0cm;
+            animation: move ease;
+            animation-duration: 1.9s;
 
         }
         a{
             padding-top: 4px;
             color: variables.$color-1;
-            transition: .3s;
-            font-size: 26px;
+            
         }
 
         a:hover{
@@ -44,27 +45,36 @@ footer{
 
     .wrapp-list{
         gap: 15px;
+        animation: move ease;
+        animation-duration: 1.9s;
     }
 
     .wrapp-h4{
         @include tipografias("poppins", 500, normal);
         color: variables.$color-3;
+        animation: move ease;
+        animation-duration: 1.9s;
     }
 
     .text-footer{
         text-decoration: none;
         @include tipografias("poppins", 500, normal);
         color: #000;
+        animation: move ease;
+        animation-duration: 1.9s;
         
     }
 
     .pr-5{
         @include tipografias("poppins", 500, normal);
         color: variables.$color-1;
+        animation: move ease;
+        animation-duration: 1.9s;
     }
 
     .copy{
         @include tipografias("poppins", 15px, 400);
+        
     }
 
     .copyright{
@@ -73,6 +83,8 @@ footer{
         text-shadow: 1px 1px solid variables.$color-3;
         border-top: 1px solid variables.$color-3;
         border-bottom: 1px solid variables.$color-3;
+        animation: move ease;
+        animation-duration: 1.9s;
     
     }
 

@@ -8,6 +8,8 @@
         font-weight: 500;
         font-family: 'poppins';
         color: variables.$color-3;
+        animation: move ease;
+        animation-duration: 1.5s;
     }
 
 }
@@ -20,5 +22,8 @@
         font-size: 25px;
         font-weight: 700;
         letter-spacing: 2px;
+        animation: move ease;
+        animation-duration: 1.5s;
+
     }
 }
