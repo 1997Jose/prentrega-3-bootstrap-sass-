@@ -385,12 +385,71 @@ footer .copyright {
 }
 
 .btn-proyecto {
+  padding: 10px 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+  position: relative;
+  text-transform: uppercase;
+  background-color: transparent;
+  overflow: hidden;
+  transition: all 500ms ease;
+  z-index: 0;
+  /* animaciones btn sobre mi */
+}
+.btn-proyecto a {
   padding: 15px 15px;
   margin-top: 15px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  border-color: none;
+  font-size: 16px;
+  font-family: "poppins";
+  font-weight: 300;
+}
+.btn-proyecto .parrfo {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.btn-proyecto::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color: rgb(0, 145, 48);
+  transition: all 500ms ease;
+  z-index: -1;
+}
+.btn-proyecto.btn-proyecto::before {
+  width: 0;
+  height: 100%;
+}
+.btn-proyecto.btn-proyecto:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.btn-proyecto.btn-proyecto:hover::before {
+  width: 100%;
 }
 
-.parrfo {
+.card {
+  border: none;
+}
+
+.card-body {
+  border-radius: none;
+  border: 1px solid rgb(0, 145, 48);
   color: rgb(10, 255, 92);
+  animation: move ease;
+  animation-duration: 1.9s;
+}
+.card-body h5 {
+  color: rgb(0, 0, 0);
+}
+.card-body .img- {
+  width: 100%;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {

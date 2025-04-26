@@ -2,10 +2,82 @@
 
 
 .btn-proyecto{
-    padding: 15px 15px;
-    margin-top: 15px;
+    padding: 10px 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: transparent;
+    overflow: hidden;
+    transition: all 500ms ease;
+    z-index: 0;
+
+
+
+    a{
+        padding: 15px 15px;
+        margin-top: 15px;
+        color: variables.$color-1;
+        text-decoration: none;
+        border-color: none;
+        font-size: 16px;
+        font-family: 'poppins';
+        font-weight: 300;
+    }
+
+
+    .parrfo{
+        color: variables.$color-1;
+        font-size: 18px;
+    }
+
+    /* animaciones btn sobre mi */
+
+        
+    &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        background-color: variables.$color-3;
+        transition: all 500ms ease;
+        z-index: -1;
+    }
+
+    &.btn-proyecto::before{
+        width: 0;
+        height: 100%;
+    }
+    
+    &.btn-proyecto:hover{
+        color: variables.$color-1;
+        cursor: pointer;
+
+        &::before{
+            width: 100%
+        }
+    }
 }
 
-.parrfo{
+.card{
+    border: none;
+}
+
+.card-body{
+    border-radius: none;
+    border: 1px solid rgb(0, 145, 48);
     color: variables.$color-2;
+    animation: move ease;
+    animation-duration: 1.9s;
+
+    h5{
+        color: variables.$color-1;
+    }
+
+    .img-{
+        width: 100%;
+        cursor: pointer;
+    }
 }
