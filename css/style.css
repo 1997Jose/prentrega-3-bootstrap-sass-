@@ -384,6 +384,15 @@ footer .copyright {
   border-radius: 8px;
 }
 
+.btn-proyecto {
+  padding: 15px 15px;
+  margin-top: 15px;
+}
+
+.parrfo {
+  color: rgb(10, 255, 92);
+}
+
 @media only screen and (max-width: 767px) {
   .navbar-nav {
     text-align: center;
