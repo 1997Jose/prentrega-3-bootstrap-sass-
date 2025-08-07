@@ -6,9 +6,9 @@
   font-family: "poppins";
   color: rgb(0, 145, 48);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 
 .navbar-light .navbar-brand {
@@ -18,9 +18,9 @@
   font-weight: 700;
   letter-spacing: 2px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 
 /* Son propiedades que se utilizan lo  mismo  valores que se reutilizan */
@@ -36,7 +36,8 @@
   align-items: center;
 }
 
-.wrapp-item-2 .icons, .wrapp-item-2 .icons-2 {
+.wrapp-item-2 .icons,
+.wrapp-item-2 .icons-2 {
   display: flex;
   align-items: center;
 }
@@ -45,78 +46,89 @@
 .wrap {
   padding-top: 1.5%;
 }
+
 .wrap .section-padding {
   padding: 100px 0;
   margin: 0px;
 }
+
 .wrap .img-perfil {
   width: 200px;
   height: 200px;
   border-radius: 200px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrap .wrapp-flex-arg {
   display: flex;
   gap: 8px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrap .wrapp-item {
   color: rgb(0, 0, 0);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrap .wrapp-card-infor {
   display: grid;
   place-items: center;
   padding: 20px;
 }
+
 .wrap .wrapp-parrafo {
   font-family: "poppins";
   font-size: 18px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrap .subtitulo {
   font-size: 45px;
   font-family: "pooppins";
   font-weight: 900;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrap .span-verde {
   color: rgb(10, 255, 92);
   font-family: "pooppins";
   font-weight: 900;
 }
+
 .wrap .h4-text-subti {
   font-family: "poppins";
   font-size: 35px;
   font-weight: 700;
   padding-top: 15px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrap .-caja-btn {
   padding-top: 30px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrap .-parrafo-btn {
   font-family: "poppins";
   font-size: 16px;
@@ -124,6 +136,7 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
 .wrap .btn-sobre-mi {
   border: none;
   border-radius: 8px;
@@ -137,6 +150,7 @@
   z-index: 0;
   /* animaciones btn sobre mi */
 }
+
 .wrap .btn-sobre-mi::before {
   content: "";
   position: absolute;
@@ -148,17 +162,21 @@
   transition: all 500ms ease;
   z-index: -1;
 }
+
 .wrap .btn-sobre-mi.btn-sobre-mi::before {
   width: 0;
   height: 100%;
 }
+
 .wrap .btn-sobre-mi.btn-sobre-mi:hover {
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
+
 .wrap .btn-sobre-mi.btn-sobre-mi:hover::before {
   width: 100%;
 }
+
 .wrap .btn-sobre-mi .wrapp-sectiones {
   gap: 15px;
 }
@@ -167,6 +185,7 @@
   color: rgb(0, 145, 48);
   cursor: pointer;
 }
+
 .linea-color .parrafo {
   font-family: "poppins";
   font-size: 18px;
@@ -179,10 +198,11 @@
   padding-top: 5%;
   position: relative;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .wrapp-item-2 .icons {
   padding-left: 10px;
   border-radius: 60%;
@@ -194,11 +214,13 @@
   -webkit-transition: 0.5s, color 0.1s;
   -moz-transition: 0.5s, color 0.1s;
 }
+
 .wrapp-item-2 .icons:hover {
   transform: translatey(-20px);
   -webkit-transform: translatey(-20px);
   -moz-transform: translatey(-20px);
 }
+
 .wrapp-item-2 .icons-2 {
   padding-left: 15px;
   border-radius: 60%;
@@ -210,11 +232,13 @@
   -webkit-transition: 0.5s, color 0.1s;
   -moz-transition: 0.5s, color 0.1s;
 }
+
 .wrapp-item-2 .icons-2:hover {
   transform: translatey(-20px);
   -webkit-transform: translatey(-20px);
   -moz-transform: translatey(-20px);
 }
+
 .wrapp-item-2 .icon {
   color: rgb(0, 0, 0);
   font-size: 20px;
@@ -226,36 +250,39 @@
   font-size: 18.5px;
   font-weight: 300;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .about-text .subtitulos-h2 {
   font-family: "poppins";
   font-size: 30px;
   font-weight: 500;
   font-style: normal;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
 
 .hr {
   color: rgb(0, 145, 48);
   font-size: 1rem;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
 
 footer {
   background-color: rgb(248, 249, 250);
 }
+
 footer .wrapp-footer- {
   gap: 50px;
 }
+
 footer .social li {
   display: inline-block;
   text-align: center;
@@ -266,37 +293,43 @@ footer .social li {
   line-height: 30px;
   padding: 0cm;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 footer .social a {
   padding-top: 4px;
   color: rgb(0, 0, 0);
 }
+
 footer .social a:hover {
   color: rgb(0, 145, 48);
 }
+
 footer ul {
   list-style-type: none;
 }
+
 footer .wrapp-list {
   gap: 15px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 footer .wrapp-h4 {
   font-family: "poppins";
   font-weight: 500;
   font-style: normal;
   color: rgb(0, 145, 48);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 footer .text-footer {
   text-decoration: none;
   font-family: "poppins";
@@ -304,25 +337,28 @@ footer .text-footer {
   font-style: normal;
   color: #000;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 footer .pr-5 {
   font-family: "poppins";
   font-weight: 500;
   font-style: normal;
   color: rgb(0, 0, 0);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 footer .copy {
   font-family: "poppins";
   font-weight: 15px;
   font-style: 400;
 }
+
 footer .copyright {
   padding-top: 15px;
   font-size: 1rem;
@@ -330,22 +366,24 @@ footer .copyright {
   border-top: 1px solid rgb(0, 145, 48);
   border-bottom: 1px solid rgb(0, 145, 48);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
 
 .container {
   padding-bottom: 10px;
 }
+
 .container .section-iconos- {
   width: 45px;
   height: 45px;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .container .section-subtitulo- {
   font-family: "poppins";
   font-size: 35px;
@@ -353,10 +391,11 @@ footer .copyright {
   font-style: normal;
   color: rgb(0, 145, 48);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .container .wrp-subtitulo- {
   font-family: "poppins";
   font-size: 25px;
@@ -366,64 +405,73 @@ footer .copyright {
   padding-left: 5px;
   color: rgb(0, 0, 0);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .container .section-p- {
   font-family: "poppins";
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .container .img-wrapp {
   width: 100%;
   border-radius: 8px;
   cursor: pointer;
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
 
 /* tipografia */
 .form-area {
   padding-top: 6%;
 }
+
 .form-area .single-form {
   box-shadow: 0 2px 20px -5px rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   border-radius: 8px;
 }
+
 .form-area .left {
   background-color: rgb(10, 255, 92);
   padding: 210px 100px;
   border-radius: 8px;
 }
+
 .form-area .h2 {
   font-family: "poppins";
   font-size: 40px;
   font-weight: 500;
 }
+
 .form-area span {
   font-family: "poppins";
   font-size: 40px;
   font-weight: 300;
 }
+
 .form-area .form-label {
   font-family: "poppins";
   font-size: 20px;
   font-weight: 300;
 }
+
 .form-area .right {
   padding: 70px 100px;
   position: relative;
   background-color: rgb(255, 255, 255);
 }
+
 .form-area .btn {
   font-family: "poppins";
   font-size: 20px;
@@ -444,6 +492,7 @@ footer .copyright {
   z-index: 0;
   /* animaciones btn sobre mi */
 }
+
 .btn-proyecto a {
   padding: 15px 15px;
   margin-top: 15px;
@@ -454,10 +503,12 @@ footer .copyright {
   font-family: "poppins";
   font-weight: 300;
 }
+
 .btn-proyecto .parrfo {
   color: rgb(0, 0, 0);
   font-size: 18px;
 }
+
 .btn-proyecto::before {
   content: "";
   position: absolute;
@@ -469,14 +520,17 @@ footer .copyright {
   transition: all 500ms ease;
   z-index: -1;
 }
+
 .btn-proyecto.btn-proyecto::before {
   width: 0;
   height: 100%;
 }
+
 .btn-proyecto.btn-proyecto:hover {
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
+
 .btn-proyecto.btn-proyecto:hover::before {
   width: 100%;
 }
@@ -490,13 +544,15 @@ footer .copyright {
   border: 1px solid rgb(0, 145, 48);
   color: rgb(10, 255, 92);
   -webkit-animation: move ease;
-          animation: move ease;
+  animation: move ease;
   -webkit-animation-duration: 1.9s;
-          animation-duration: 1.9s;
+  animation-duration: 1.9s;
 }
+
 .card-body h5 {
   color: rgb(0, 0, 0);
 }
+
 .card-body .img- {
   width: 100%;
   cursor: pointer;
@@ -507,57 +563,71 @@ footer .copyright {
     text-align: center;
   }
 }
+
 @media (max-width: 767px) {
   .left {
     padding: 90px 15px;
     text-align: center;
   }
+
   .left h2 {
     font-size: 25px;
   }
+
   .right {
     padding: 25px;
   }
+
   .right i {
     top: -52px;
     transform: rotate(90deg);
     left: 45%;
   }
+
   .right button {
     width: 150px;
     padding: 12px 0;
   }
 }
+
 @-webkit-keyframes move {
   from {
     transform: translateX(-100px);
   }
+
   to {
     transform: translateX(5px);
   }
 }
+
 @keyframes move {
   from {
     transform: translateX(-100px);
   }
+
   to {
     transform: translateX(5px);
   }
 }
+
 /* keyframes animation */
 @-webkit-keyframes showRight {
   100% {
     width: 0;
   }
 }
+
 @keyframes showRight {
   100% {
     width: 0;
   }
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins";
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

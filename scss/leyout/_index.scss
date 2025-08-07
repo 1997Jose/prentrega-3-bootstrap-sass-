@@ -21,21 +21,15 @@
         width: 200px;
         height: 200px;
         border-radius: 200px;
-        animation: move ease;
-        animation-duration: 1.9s;
     }
 
     .wrapp-flex-arg {
         display: flex;
         gap: 8px;
-        animation: move ease;
-        animation-duration: 1.9s;
     }
 
     .wrapp-item{
         color: variables.$color-1;
-        animation: move ease;
-        animation-duration: 1.9s;
     }
 
     .wrapp-card-infor{
@@ -49,16 +43,12 @@
 
     .wrapp-parrafo{
         @include tipografias("poppins", 18px);
-        animation: move ease;
-        animation-duration: 1.9s;
     }
 
     .subtitulo{
         font-size: 45px;
         font-family: "pooppins";
         font-weight: 900;
-        animation: move ease;
-        animation-duration: 1.9s;
     }
 
     .span-verde{
@@ -71,15 +61,11 @@
         @include tipografias("poppins", 35px);
         font-weight: 700;
         padding-top: 15px;
-        animation: move ease;
-        animation-duration: 1.9s;
     }
 
 
     .-caja-btn{
         padding-top: 30px;
-        animation: move ease;
-        animation-duration: 1.9s;
     }
     
     .-parrafo-btn{
