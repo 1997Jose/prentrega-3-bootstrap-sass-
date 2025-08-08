@@ -17,8 +17,14 @@
     align-items: center;
 }
 
+%flexBasico4{
+    display: flex-start;
+    align-items: center;
+}
+
 
 %flexColumn{
     display: grid;
     place-items: center;
 }
+

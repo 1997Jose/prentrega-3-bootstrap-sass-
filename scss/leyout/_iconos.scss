@@ -3,60 +3,44 @@
 @use '../utilitis/extends';
 
 
-.wrapp-item-2{
-    @extend %flexBasico2;
-    gap: 15px;
+.wrapp-item-2 {
+    @extend %flexBasico3;
+    gap: 10px;
     padding-top: 5%;
     position: relative;
     animation: move ease;
     animation-duration: 1.9s;
 
 
-    .icons{
-        @extend %flexBasico3;
-        padding-left: 10px;
-        border-radius: 60%;
+    .icons {
+        @extend %flexBasico4;
+        padding-left: 9px;
+        border-radius: 20%;
         right: 10px;
         width: 48px;
-        height: 48px;
+        height: 45px;
+        cursor: pointer;
         outline: 2px solid variables.$color-3;
-        transition: .5s, color .10s;
+        transition: .5s ease;
         -webkit-transition: .5s, color .10s;
         -moz-transition: .5s, color .10s;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: calc(.2s * var(--i));
 
     }
 
-    .icons:hover{
+    .icons:hover {
         transform: translatey(-20px);
-            -webkit-transform: translatey(-20px);
-            -moz-transform: translatey(-20px);
+        -webkit-transform: translatey(-20px);
+        -moz-transform: translatey(-20px);
+        background:variables.$color-3;
+        color:variables.$color-2;
     }
 
-    .icons-2{
-        @extend %flexBasico3;
-        padding-left: 15px;
-        border-radius: 60%;
-        right: 10px;
-        width: 48px;
-        height: 48px;
-        outline: 2px solid variables.$color-3;
-        transition: .5s, color .10s;
-        -webkit-transition: .5s, color .10s;
-        -moz-transition: .5s, color .10s;
-    }
-
-    .icons-2:hover{
-        transform: translatey(-20px);
-            -webkit-transform: translatey(-20px);
-            -moz-transform: translatey(-20px);
-    }
-
-    .icon{
+    .icon {
         color: variables.$color-1;
-        font-size: 20px;
+        font-size: 30px;
 
     }
 
 }
-
-

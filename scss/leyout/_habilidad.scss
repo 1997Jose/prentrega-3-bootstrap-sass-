@@ -46,7 +46,10 @@
         width: 100%;
         border-radius: 8px;
         cursor: pointer;
-        animation: move ease;
-        animation-duration: 1.9s;
+         transition: transform 0.3s ease;
+    }
+
+        .img-wrapp:hover{
+            transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
     }
 }
