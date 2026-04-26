@@ -278,6 +278,11 @@ footer .copyright {
   animation-duration: 1.9s;
 }
 
+.icon-boostrap {
+  font-size: 40px;
+  color: rgb(0, 145, 48);
+}
+
 .container {
   padding-bottom: 10px;
 }
@@ -323,6 +328,10 @@ footer .copyright {
 }
 .container .img-wrapp:hover {
   transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
+}
+
+img {
+  color: rgb(0, 145, 48);
 }
 
 /* tipografia */

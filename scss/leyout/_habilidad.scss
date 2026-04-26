@@ -8,6 +8,10 @@
     font-style: $normal;
 }
 
+.icon-boostrap{
+font-size: 40px;
+color: variables.$color-3;
+}
 
 
 .container{
@@ -18,6 +22,7 @@
         height: 45px;
         animation: move ease;
         animation-duration: 1.9s;
+        
     }
 
     .section-subtitulo-{
@@ -53,3 +58,7 @@
             transform: scale(1.2); /* Aumenta el tamaño al pasar el cursor */
     }
 }
+
+    img{
+        color: variables.$color-3;
+    }
